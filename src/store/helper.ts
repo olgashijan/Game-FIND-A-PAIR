@@ -24,8 +24,6 @@ export const getRandomCards = (cards: CardType[]): CardType[] => {
 }
 
 export const changeActiveCards = (cards: CardType[], active: CardType[], id: number): SoreCardsType => {
-  // let cardList = [...cards];
-  // let activeCards = [...active];
   let card: CardType = cards.filter((e: CardType) => e.id === id)[0]
   if (!active.length) {
     active = [card]
