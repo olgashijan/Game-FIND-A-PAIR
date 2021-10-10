@@ -1,6 +1,6 @@
 # GAME
 
-https://user-images.githubusercontent.com/53576531/136708885-8aa43a3d-92d4-4194-a22d-caceedcc3de0.mov
+![Game](https://user-images.githubusercontent.com/53576531/136709377-770879eb-8436-4e71-b993-98a3e33ff7af.gif)
 
 # Getting Started with Create React App
 
