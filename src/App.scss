@@ -1,0 +1,42 @@
+.cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  perspective: 1000px;
+
+  &__front, &__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    backface-visibility: hidden;
+    border-radius: 8px;
+  }
+
+  &__front {
+    background-color: #DCABAE;
+  }
+
+  &__back {
+    transform: rotateY(180deg);
+    font-size: 40px;
+  }
+}
+
+.card__front.show {
+  transform: rotateY(180deg);
+}
+
+.card__back.show {
+  transform: rotateY(360deg);
+}
